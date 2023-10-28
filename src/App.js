@@ -24,21 +24,28 @@ function App() {
         <h1>DAILY WATER GOAL TRACKER</h1>
       </div>
       <div className='body'>
-        <div>
-          <h2>Current Daily target :- {prev} bottles</h2>
-          <h3>Set daily target</h3>
-          <input type='number' id='dt'></input>
-          <button type='button' onClick={setTarget}>SET</button>
-        </div>
-        <div className='countr'>
-          <h2>Increase or Decrease the count of bottles you have consumed.</h2>
-          <button onClick={increase}> + </button>
-          <h2>{stats} bottles</h2>
-          <button onClick={decrease}> - </button>
-        </div>
+        
+          <div className='upperbdy'>
+            <div className='upperbdy1'>
+              <h2>Current Daily target :- <strong>{prev}</strong> Bottles</h2>
+            </div>
+            <div className='upperbdy2'>
+              <h3>Set daily target</h3>
+              <input type='number' id='dt'></input>
+              <button className='set' type='button' onClick={setTarget}>SET</button>
+            </div>
+          </div>
+          <div className='countr'>
+            <h2>Increase or Decrease the count of bottles consumed.</h2>
+            <button className='addbtn' onClick={increase}> + </button>
+            <div>
+              <h2>{stats} bottles</h2>
+            </div>
+            <button className='sbbtn' onClick={decrease}> - </button>
+          </div>
       </div>
-             </div>
-      )
+    </div>
+  )
 }
 
-      export default App;
+export default App;
