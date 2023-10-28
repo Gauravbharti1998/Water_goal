@@ -22,6 +22,7 @@
 } 
 .upperbdy1{
   text-align: center;
+  font-family:cursive;
     margin-top: 0px;
     margin-left: 0px;
     width: 350px;
@@ -32,8 +33,10 @@
 }
 .upperbdy2{
   text-align: center;
+  position: relative;
+  font-family: cursive;
    margin-top: 10px;
-  margin-left: 0px;
+  margin-left: 50px;
   width: 200px;
   height: 120px;
   border: 3px solid brown;
@@ -42,17 +45,17 @@
 }
 
 .countr{
-  margin-left: 50%;  
   text-align: center;
-   margin-top: 10%;
+  font-family:  cursive;
+   margin-top: 50%;
    color:black;
-  margin-bottom: 20%;
-  margin-left: 1200px; 
-   width: 200px;
-  height: 420px; 
+  margin-bottom: 10%;
+  margin-left: 60px; 
+   width: 300px;
+  height: 320px; 
   opacity: 0.8;
   border: 3px solid rgb(46, 101, 146);
-  background-color: rgb(130, 177, 176);
+  background-color: rgb(212, 169, 176);
   border-radius: 3%;
 }
 .set{
@@ -60,10 +63,11 @@
   border: none; /* Remove borders */
   color: white; /* White text */
   margin-left: 10px;
-  margin-top: 10px;
+  font-family: cursive;
+  margin-top: 2px;
   text-decoration:none;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom:0px;
   padding: 3px 6px; /* Some padding */
   font-size: 16px; /*   Set a font size */
   cursor: pointer; /* Mouse pointer on hover */ 
@@ -77,10 +81,10 @@
   border: none; /* Remove borders */
   color: white; /* White text */
   margin-left: 10px;
-  margin-top: 10px;
+  margin-top: 2px;
   text-decoration:none;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
   padding: 3px 6px; /* Some padding */
   font-size: 29px; /*   Set a font size */
   cursor: pointer; /* Mouse pointer on hover */ 
@@ -94,10 +98,10 @@
   border: none; /* Remove borders */
   color: white; /* White text */
   margin-left: 10px;
-  margin-top: 10px;
+  margin-top: 2px;
   text-decoration:none;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
   padding: 3px 6px; /* Some padding */
   font-size: 29px; /*   Set a font size */
   cursor: pointer; /* Mouse pointer on hover */ 
@@ -107,6 +111,24 @@
   background-color: black;
 }
 
-.congrats{
+.congo{
   
+  text-align: center;
+  padding-top: 10px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:rgb(205, 9, 9);
+  font-size: 200%;
+  margin-bottom: 600px;
+  margin-top: 0px;
+  margin-left: 1100px; 
+   width: 330px;
+  height: 180px; 
+  padding: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  opacity: 0.9;
+  visibility: hidden;
+   border: 1px solid rgb(46, 101, 146);
+  background-color: rgb(76, 232, 195);
+  border-radius: 20%;
 }
