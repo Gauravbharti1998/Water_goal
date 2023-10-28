@@ -45,13 +45,14 @@
   margin-left: 50%;  
   text-align: center;
    margin-top: 10%;
+   color:black;
   margin-bottom: 20%;
   margin-left: 1200px; 
    width: 200px;
   height: 420px; 
   opacity: 0.8;
   border: 3px solid rgb(46, 101, 146);
-  background-color: rgb(145, 189, 214);
+  background-color: rgb(130, 177, 176);
   border-radius: 3%;
 }
 .set{
