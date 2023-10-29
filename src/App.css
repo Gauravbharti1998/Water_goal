@@ -36,14 +36,26 @@
   position: relative;
   font-family: cursive;
    margin-top: 10px;
-  margin-left: 50px;
+  margin-left: 10px;
+  margin-right: 30px;
   width: 200px;
   height: 120px;
   border: 3px solid brown;
   background-color: rgb(130, 177, 176);
   border-radius: 3%;
 }
-
+.vol{
+  text-align: center;
+  position:relative;
+  font-family: cursive;
+   margin-top: -123px;
+   margin-left: 250px;
+  width: 300px;
+  height: 120px;
+  border: 3px solid brown;
+  background-color: rgb(130, 177, 176);
+  border-radius: 3%;
+}
 .countr{
   text-align: center;
   font-family:  cursive;
@@ -58,7 +70,7 @@
   background-color: rgb(212, 169, 176);
   border-radius: 3%;
 }
-.set{
+.save,.set{
   background-color: green; /* Blue background */
   border: none; /* Remove borders */
   color: white; /* White text */
@@ -76,6 +88,10 @@
 .set:hover {
   background-color:black;
 }
+.save:hover{
+  background-color:black;
+}
+
 .addbtn {
   background-color: green; /* Blue background */
   border: none; /* Remove borders */
