@@ -16,7 +16,7 @@ function App() {
     if( stats >= target-1 ){ 
       var temp = document.getElementById("dt2").value;
       document.getElementById('congrats').style.visibility='visible';
-      document.getElementById('congrats').innerHTML = 'Congratulations!! </br> You have achieved your daily water intake goal !<br/> Total water intake  ' + '</br>' +(temp * target)/1000 + ' Litres';
+      document.getElementById('congrats').innerHTML = 'Congratulations!! </br> You have achieved your daily water intake goal !<br/> Total water intake  ' + '</br>' + (temp * target)/1000 + ' Litres';
     }
   }
   const decrease = () => {
@@ -30,7 +30,7 @@ function App() {
       <div className='heading'>
         <h1>Welcome to the DAILY WATER GOAL TRACKER</h1>
       </div>
-      <h4>PLEASE NOTE: This app keeps track considering that you use same volume of bottle everytime.</h4>
+      <h4>PLEASE NOTE: This app keeps track considering that you use same volume of bottle everytime</h4>
       <div className='body'>       
           <div className='upperbdy'>
             <div className='upperbdy1'>
