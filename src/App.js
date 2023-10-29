@@ -16,7 +16,7 @@ function App() {
     if( stats >= target-1 ){ 
       var temp = document.getElementById("dt2").value;
       document.getElementById('congrats').style.visibility='visible';
-      document.getElementById('congrats').innerHTML = 'Congratulations!! </br> You have achieved your daily water intake goal !<br/> Total water intake  ' + '</br>' + (temp * target)/1000 + ' Litres';
+      document.getElementById('congrats').innerHTML = `Congratulations!! </br> You have achieved your daily water intake goal !<br/> Total water intake ${(temp * target)/1000} Litres`;
     }
   }
   const decrease = () => {
