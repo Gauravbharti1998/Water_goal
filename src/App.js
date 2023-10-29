@@ -28,9 +28,9 @@ function App() {
   return (
     <div>
       <div className='heading'>
-        <h1>DAILY WATER GOAL TRACKER</h1>
+        <h1>Welcome to the DAILY WATER GOAL TRACKER</h1>
       </div>
-      <h4>NOTE: This app keeps track considering that you use same volume of bottle everytime.</h4>
+      <h4>PLEASE NOTE: This app keeps track considering that you use same volume of bottle everytime.</h4>
       <div className='body'>       
           <div className='upperbdy'>
             <div className='upperbdy1'>
